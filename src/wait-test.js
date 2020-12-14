@@ -3,8 +3,8 @@ const playwright = require('playwright');
 (async () => {
 
     const browser = await playwright["chromium"].launch({
-        headless: false,
-        devtools: true
+        //headless: false,
+        //devtools: true
     });
     const context = await browser.newContext();
     const page = await context.newPage();

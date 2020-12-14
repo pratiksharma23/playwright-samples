@@ -3,7 +3,7 @@ const assert = require('assert');
 
 (async () => {
   const browser = await chromium.launch({
-    headless:false
+    //headless:false
   });
   const page = await browser.newPage();
 
