@@ -1,0 +1,21 @@
+{
+  "name": "playwright-samples",
+  "version": "1.0.0",
+  "repository": "https://github.com/pratiksharma23/playwright-samples",
+  "author": "Pratik Sharma <pratiksharma@microsoft.com>",
+  "license": "MIT",
+  "scripts": {
+    "screenshot": "node src/screenshot.js",
+    "download": "node src/download.js",
+    "login": "node src/login.js",
+    "network-events": "node src/network-events.js",
+    "perf": "node src/performance-timing.js",
+    "search": "node src/search.js",
+    "video": "node src/video.js",
+    "wait-test": "node src/wait-test.js"
+  },
+  "dependencies": {
+    "playwright": "^1.6.2",
+    "fs-js": "^1.0.6"
+  }
+}
