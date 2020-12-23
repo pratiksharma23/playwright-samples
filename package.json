@@ -15,7 +15,7 @@
     "wait-test": "node src/wait-test.js"
   },
   "dependencies": {
-    "playwright": "^1.6.2",
+    "playwright": "^1.7.0",
     "fs-js": "^1.0.6"
   }
 }
